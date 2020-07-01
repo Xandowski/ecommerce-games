@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogo</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="assets/images/logo.svg" alt="">
+        <div class="hamburger">
+          <div class="line -line1"></div>
+          <div class="line -line2"></div>
+          <div class="line -line3"></div>
+        </div>
+      </div>
+
+      <ul class="menu">
+        <li><a href="index.html">Loja</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+      </ul>
+
+      <div class="user-content">
+        <div class="shopping-cart">
+          <i class="cart" data-feather="shopping-cart"></i>
+          <p>0</p>
+        </div>
+        <button class="button">Entrar</button>
+      </div>
+    </nav>
+    <div class="menu-content">
+      <ul class="link-jogos">
+        <li class="link"><a href="catalogo.html#games">Ação</a></li>
+        <li class="link"><a href="catalogo.html">Aventura</a></li>
+        <li class="link"><a href="catalogo.html">Corrida</a></li>
+        <li class="link"><a href="catalogo.html">Esporte</a></li>
+      </ul>
+      <ul class="link-jogos">
+        <li class="link"><a href="catalogo.html">Estratégia</a></li>
+        <li class="link"><a href="catalogo.html">FPS</a></li>
+        <li class="link"><a href="catalogo.html">Grátis para jogar</a></li>
+        <li class="link"><a href="catalogo.html">Indie</a></li>
+      </ul>
+      <ul class="link-jogos">
+        <li class="link"><a href="catalogo.html">Puzzle</a></li>
+        <li class="link"><a href="catalogo.html">Quebra-Cabeça</a></li>
+        <li class="link"><a href="catalogo.html">RPG</a></li>
+        <li class="link"><a href="catalogo.html">Sobrevivência</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="search">
+    <h1 class="title">Catálogo</h1>
+    <input id="search" onkeyup="search()" class="search-bar" type="text" placeholder="Ex: ação">
+  </section>
+  <ul class="breadcrumb">
+    <li><a href="index.html">Loja</a></li>
+    <li><a href="catalogo.html">Catálogos</a></li>
+  </ul>
+
+  <main class="sub-menu-content">
+    <ul class="sub-menu">
+      <li class="link">Todos</li>
+      <li class="link">Ação</li>
+      <li class="link">Aventura</li>
+      <li class="link">Corrida</li>
+      <li class="link">Esporte</li>
+      <li class="link">Estratégia</li>
+      <li class="link">FPS</li>
+      <li class="link">Grátis para jogar</li>
+      <li class="link">Indie</li>
+      <li class="link">Puzzle</li>
+      <li class="link">Quebra-Cabeça</li>
+      <li class="link">RPG</li>
+      <li class="link">Sobrevivência</li>
+    </ul>
+
+    <div id="jogos" class="jogos">
+      <ul class="list1" class="games" id="games">
+        <li class="promo-item flip-card" data-js="ação">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/Game1.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p id="discountPrice" data-js=89.95>R$ 89.95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="rpg">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/thewitcher.jpg" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="tiro">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/Game3.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="tiro">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/Game4.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="ação">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/Game5.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="rpg">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/mad.jpg" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="ação">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/gta5.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p id="discountPrice" data-js=89.95>R$ 89.95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="rpg">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/newworld.jpg" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="tiro">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/bf.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="esporte">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/fifa20.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="ação">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/Game5.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="promo-item flip-card" data-js="ação">
+          <div class="flip-card-inner">
+            <div class="box flip-card-front">
+              <img src="assets/images/batman.png" alt="">
+            </div>
+
+            <div class="box flip-card-back">
+              <h2>Detalhes</h2>
+              <p>requisitos para rodar o jogo</p>
+              <button class="card-btn">
+                <i class="cart-btn" data-feather="shopping-cart"></i>
+                <p>Adicionar</p>
+              </button>
+            </div>
+          </div>
+          <div class="item-value">
+            <div class="descount">
+              <p>-50%</p>
+            </div>
+            <div class="price">
+              <p class="">R$ 179,90</p>
+              <p>R$ 89,95</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+  </main>
+
+  <footer>
+    <div class="contato">
+      <p>Entre em contato: email@contato.com</p>
+      <p>todos os direitos reservados</p>
+    </div>
+    <div class="social-media">
+      <p>Siga nas redes sociais</p>
+      <div class="social-media-icons">
+        <i data-feather="twitter"></i>
+        <i data-feather="facebook"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script src="node_modules/feather-icons/dist/feather.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/slick-carousel/slick/slick.js"></script>
+  <script>
+    feather.replace()
+  </script>
+  <script src="assets/js/hamburger.js"></script>
+  <script src="assets/js/search-game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+.flip-card-banner {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 3px;
+}
+
+.flip-card-banner-inner {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: height 1s;
+}
+
+.flip-card-banner:hover .flip-card-banner-inner {
+  transform: rotateY(180deg);
+  height: 100%;
+  cursor: pointer;
+}
+
+.flip-card-banner-front, .flip-card-banner-back {
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.flip-card-banner-back {
+  height: 100%;
+}
+
+
+.flip-card-banner-front {
+  height: 100px;
+  align-self: flex-end;
+}
+
+.flip-card-banner-front img{
+	width: 100%;
+    height: 100%;
+}
+
+.flip-card-banner-front {
+  background-color: var(--first-color);
+  color: white;
+  font-weight: bold;
+}
+
+.flip-card-banner-back {
+  background-color: var(--first-color);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.add-cart{
+  background-color: var(--second-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  color: var(--bg-color);
+  border-radius: 3px;
+}
+
+.add-cart:hover{
+  cursor: pointer;
+}

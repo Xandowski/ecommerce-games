@@ -1,0 +1,36 @@
+footer{
+  background-color: var(--first-color);
+  color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 12px 180px;
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+footer .contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contato p:first-child{
+  font-size: 20px;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-media-icons svg{
+  opacity: 0.8;
+  color: var(--bg-color);
+}
+
+.social-media-icons svg:hover{
+  opacity: 1;
+  cursor: pointer;
+}

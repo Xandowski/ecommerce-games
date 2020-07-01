@@ -1,0 +1,106 @@
+.box{
+  width: 250px;
+  height: 379px;
+  border-radius: 4px;
+  color: white;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 5px;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+}
+
+.item-value{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+}
+
+.price > :first-child{
+  text-decoration: line-through;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 250px !important;
+  height: 379px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 87%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: var(--first-color);
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flip-card-inner.lsGrab > *{
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: -o-grab;
+  cursor: -ms-grab;
+  cursor: grab;
+}
+
+.flip-card-inner.lsGrabbing > * {
+  cursor: move;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: -o-grabbing;
+  cursor: -ms-grabbing;
+  cursor: grabbing;
+}
+
+
+.card-btn{
+  background-color: var(--second-color);
+  border: none;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 2px;
+}
+
+.cart-btn{
+  color: var(--bg-color);
+}
+
+.disc-price{
+  display: flex;
+}
+
+.sub-title {
+  margin-top: 110px;
+}

@@ -1,0 +1,17 @@
+.breadcrumb {
+  padding: 8px 16px;
+  list-style: none;
+  margin-top: 50px;
+  width: 80vw;
+  align-self: center;
+}
+
+.breadcrumb li {display: inline;}
+
+.breadcrumb li+li:before {
+  padding: 5px;
+  color: var(--second-color);
+  content: "/\00a0";
+}
+
+.breadcrumb li a {color: white;}

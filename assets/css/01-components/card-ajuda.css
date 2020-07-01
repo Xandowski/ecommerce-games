@@ -1,0 +1,30 @@
+.ajuda {
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  margin: 110px 0;
+}
+
+.card-ajuda{
+  width: 300px;
+  height: 125px;
+  background-color: var(--first-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 22px;
+  transition: ease-in;
+}
+
+.card-ajuda:hover{
+  background-color: #2d3dce;
+  cursor: pointer;
+}
+
+.card-ajuda p {
+  color: var(--second-color);
+  font-size: 28px;
+  font-weight: bold;
+}

@@ -1,0 +1,92 @@
+@import '06-settings/colors.css';
+
+@import '04-generic/reset.css';
+
+@import '03-base/base.css';
+
+@import '02-Objects/card.css';
+
+@import '01-components/descount.css';
+@import '01-components/navbar.css';
+@import '01-components/btn.css';
+@import '01-components/hamburger.css';
+@import '01-components/menu-content.css';
+@import '01-components/card-ajuda.css';
+@import '01-components/footer.css';
+@import '01-components/carousel.css';
+@import '01-components/catalogo-container.css';
+@import '01-components/search-bar.css';
+@import '01-components/sub-menu.css';
+@import '01-components/jogos.css';
+@import '01-components/breadcumb.css';
+@import '01-components/flip-card-banner.css';
+
+body{
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Monstserrat, Arial, Helvetica, sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+.cont{
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 180px;
+}
+
+.sub-title{
+  color: white;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  color: white;
+}
+
+.slick-arrow{
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.left{
+  left: 0.5em;
+  z-index: 99;
+}
+
+.right{
+  right: 0.5em;
+}
+
+.perguntas{
+  margin-top: 50px;
+  background-color: #0a0d22;
+  border-radius: 3px;
+}
+
+.perguntas li{
+  margin: 10px;
+}
+
+.perguntas .resposta{
+  margin-bottom: 15px;
+}
+
+.d-flex{
+  text-align: right !important;
+  width: 100%;
+}

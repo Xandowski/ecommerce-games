@@ -1,0 +1,30 @@
+.menu-content{
+  display: none;  
+  width: 70%;
+  height: 130px;
+  /* left: 360px; */
+  background-color: var(--first-color);
+  color: white;
+  padding: 0 10px;
+}
+
+.-menu-active{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 60px;
+  z-index: 99;
+  align-self: center;
+}
+
+.-menu-active ul{
+  width: 140px;
+}
+
+.-menu-active li{
+  margin: 5px;
+}
+
+.-menu-active li a:hover{
+  font-weight: bold;
+}

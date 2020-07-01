@@ -1,0 +1,14 @@
+.jogos{
+  margin-top: 85px;
+}
+
+.jogos .list1{
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link{
+  cursor: pointer;
+}

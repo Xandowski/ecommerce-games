@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/slick-carousel/slick/slick.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="assets/images/logo.svg" alt="">
+        <div class="hamburger">
+          <div class="line -line1"></div>
+          <div class="line -line2"></div>
+          <div class="line -line3"></div>
+        </div>
+      </div>
+
+      <ul class="menu">
+        <li><a href="#loja">Loja</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="ajuda.html">Ajuda</a></li>
+      </ul>
+
+      <div class="user-content">
+        <div class="shopping-cart">
+          <i class="cart" data-feather="shopping-cart"></i>
+          <p>0</p>
+        </div>
+        <button class="button">Entrar</button>
+      </div>
+    </nav>
+    <div class="menu-content">
+      <ul class="link-jogos">
+        <li class="link">Ação</li>
+        <li class="link">Aventura</li>
+        <li class="link">Corrida</li>
+        <li class="link">Esporte</li>
+      </ul>
+      <ul class="link-jogos">
+        <li class="link">Estratégia</li>
+        <li class="link">FPS</li>
+        <li class="link">Grátis para jogar</li>
+        <li class="link">Indie</li>
+      </ul>
+      <ul class="link-jogos">
+        <li class="link">Puzzle</li>
+        <li class="link">Quebra-Cabeça</li>
+        <li class="link">RPG</li>
+        <li class="link">Sobrevivência</li>
+      </ul>
+    </div>
+  </header>
+
+  <div id="Indicators" class="carousel slide p-4" data-ride="carousel" data-interval="5000">
+    <h2>Destaques</h2>
+    <ol class="carousel-indicators p-5">
+      <li data-target="#Indicators" data-slide-to="0" class="active"></li>
+      <li data-target="#Indicators" data-slide-to="1"></li>
+      <li data-target="#Indicators" data-slide-to="2"></li>
+      <li data-target="#Indicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 p-5" src="assets/images/cyberloiros.jpg">
+        <div class="carousel-caption d-flex justify-content-between align-items-end">
+          <div class="flip-card-banner">
+            <div class="flip-card-banner-inner">
+              <div class="flip-card-banner-front">
+                <h3>+Deatlhes</h3>
+              </div>
+              <div class="flip-card-banner-back">
+                <h2>Detalhes</h2>
+                <p>requisitos para rodar o jogo</p>
+              </div>
+            </div>
+          </div>
+         <div class="add-cart">
+           <h3>+Adicionar ao carrinho</h3>
+           <p>R$ 89,95</p>
+         </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img class="d-block w-100 p-5" src="assets/images/thewicher.jpg">
+        <div class="carousel-caption d-flex justify-content-between align-items-end">
+          <div class="flip-card-banner">
+            <div class="flip-card-banner-inner">
+              <div class="flip-card-banner-front">
+                <h3>+Deatlhes</h3>
+              </div>
+              <div class="flip-card-banner-back">
+                <h2>Detalhes</h2>
+                <p>requisitos para rodar o jogo</p>
+              </div>
+            </div>
+          </div>
+         <div class="add-cart">
+           <h3>+Adicionar ao carrinho</h3>
+           <p>R$ 89,95</p>
+         </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 p-5" src="assets/images/fifa_20.png">
+        <div class="carousel-caption d-flex justify-content-between align-items-end">
+          <div class="flip-card-banner">
+            <div class="flip-card-banner-inner">
+              <div class="flip-card-banner-front">
+                <h3>+Deatlhes</h3>
+              </div>
+              <div class="flip-card-banner-back">
+                <h2>Detalhes</h2>
+                <p>requisitos para rodar o jogo</p>
+              </div>
+            </div>
+          </div>
+         <div class="add-cart">
+           <h3>+Adicionar ao carrinho</h3>
+           <p>R$ 89,95</p>
+         </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 p-5" src="assets/images/gtav-scaled.jpg">
+        <div class="carousel-caption d-flex justify-content-between align-items-end">
+          <div class="flip-card-banner">
+            <div class="flip-card-banner-inner">
+              <div class="flip-card-banner-front">
+                <h3>+Deatlhes</h3>
+              </div>
+              <div class="flip-card-banner-back">
+                <h2>Detalhes</h2>
+                <p>requisitos para rodar o jogo</p>
+              </div>
+            </div>
+          </div>
+         <div class="add-cart">
+           <h3>+Adicionar ao carrinho</h3>
+           <p>R$ 89,95</p>
+         </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#Indicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#Indicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <div class="cont">
+    <div class="sub-title">
+      <h2>Promoções</h2>
+    </div>
+    <ul id="autoWidth" data-js="promo" class="cs-hidden slider slick-slider">
+      <li class="promo-item flip-card" data-js="89.95">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/Game1.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p id="discountPrice" data-js=89.95>R$ 89.95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/thewitcher.jpg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/Game3.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/Game4.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/Game5.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/mad.jpg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/fallout76.jpg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/nomans.jpg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="sub-title title2">
+      <h2>Proximos Lançamentos</h2>
+    </div>
+    <ul id="autoWidth" data-js="promo" class="cs-hidden slider slick-slider">
+      <li class="promo-item flip-card" data-js="89.95">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/cyber.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p id="discountPrice" data-js=89.95>R$ 89.95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/deathstranding.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/acvalhalla.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/dyinglight2.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/avengers.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/newworld.jpg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/godfall.jpg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/ghost.jpeg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="sub-title title3">
+      <h2>Mais Vendidos</h2>
+    </div>
+    <ul id="autoWidth" data-js="promo" class="cs-hidden slider slick-slider">
+      <li class="promo-item flip-card" data-js="89.95">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/gta5.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p id="discountPrice" data-js=89.95>R$ 89.95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/pubg.jpg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/batman.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/bf.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/skyrim.jpg" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/dbd.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/fifa20.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+
+      <li class="promo-item flip-card">
+        <div class="flip-card-inner">
+          <div class="box flip-card-front">
+            <img src="assets/images/reddead.png" alt="">
+          </div>
+
+          <div class="box flip-card-back">
+            <h2>Detalhes</h2>
+            <p>requisitos para rodar o jogo</p>
+            <button class="card-btn">
+              <i class="cart-btn" data-feather="shopping-cart"></i>
+              <p>Adicionar</p>
+            </button>
+          </div>
+        </div>
+        <div class="item-value">
+          <div class="descount">
+            <p>-50%</p>
+          </div>
+          <div class="price">
+            <p class="">R$ 179,90</p>
+            <p>R$ 89,95</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="catalogo-container">
+    <div class="btn-content">
+      <p>Veja todos os jogos no nosso catálogo</p>
+      <a href="catalogo.html">Catálogo</a>
+    </div>
+
+    <div class="imgs">
+      <img class="cyber" src="assets/images/cyberpunk2077.png" alt="">
+      <img class="keanu" src="assets/images/keanurivis.png" alt="">
+    </div>
+  </div>
+
+    <footer>
+      <div class="contato">
+        <p>Entre em contato: email@contato.com</p>
+        <p>todos os direitos reservados</p>
+      </div>
+      <div class="social-media">
+        <p>Siga nas redes sociais</p>
+        <div class="social-media-icons">
+          <a href="https://www.twitter.com/"><i data-feather="twitter"></i></a> 
+          <a href="https://www.facebook.com/"><i data-feather="facebook"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="node_modules/feather-icons/dist/feather.js"></script>
+    <script src="node_modules/slick-carousel/slick/slick.js"></script>
+    <script>
+      feather.replace()
+    </script>
+    <script src="assets/js/hamburger.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>

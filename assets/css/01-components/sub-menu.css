@@ -1,0 +1,17 @@
+.sub-menu-content{
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-menu{
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 70px;
+}

@@ -1,0 +1,43 @@
+.hamburger {
+  padding: 5px;
+  margin-left: 34px;
+  display: block;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}
+
+.line{
+  background-color: var(--second-color);
+  width: 30px;
+  height: 3px;
+  margin-bottom: 2px;
+}
+
+.-change .-line1 {
+  transform: rotate(-45deg) translate(-4px, 7px);
+  transition: 0.4s;
+}
+
+.-change .-line2{
+  opacity: 0;
+}
+
+.-change .-line3{
+  transform: rotate(45deg) translate(0px, -5px);
+  transition: 0.4s;
+}
+
+.-nav-bar-on{
+  height: 80%;
+  transition: height 1s;
+}
+
+.-nav-on{
+  display: block;
+  position: relative;
+  top: 25%;
+  left: 25%
+}
+

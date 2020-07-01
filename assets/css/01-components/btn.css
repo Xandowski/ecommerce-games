@@ -1,0 +1,11 @@
+.button{
+  margin-left: 34px;
+  width: 90px;
+  height: 40px;
+  border: none;
+  color: 3600A9;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: var(--second-color);
+  border-radius: 3px;
+}

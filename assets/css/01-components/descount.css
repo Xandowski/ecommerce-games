@@ -1,0 +1,15 @@
+.descount{
+  box-sizing: border-box;
+  width: 56px;
+  height: 37px;
+  border: 2px solid var(--first-color);
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.descount p{
+  font-size: 18px;
+  margin: 5px;
+}
