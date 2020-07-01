@@ -1,0 +1,27 @@
+{
+  "name": "ecommerceGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "slick-carousel": "^1.8.1",
+    "feather-icons": "^4.28.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xandowski/ecommerce-games.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xandowski/ecommerce-games/issues"
+  },
+  "homepage": "https://github.com/Xandowski/ecommerce-games#readme"
+}
