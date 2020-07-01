@@ -76,6 +76,7 @@
   height: 100px;
   color: var(--bg-color);
   border-radius: 3px;
+  border: 1px solid #4152EA;
 }
 
 .add-cart:hover{
